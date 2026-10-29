@@ -1,0 +1,13 @@
+ultralytics
+fastapi[standard]
+uvicorn
+pydantic
+matplotlib
+torch
+matplotlib
+PIL
+numpy
+pytest-asyncio
+httpx
+locust
+openai
