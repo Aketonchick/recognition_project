@@ -148,25 +148,6 @@ curl -X POST "http://localhost:8000/predictions" \
 
 > Узкое место — не GPU, а предобработка и постобработка на CPU. Дальнейшая оптимизация: батчинг, Triton Inference Server.
 
----
-
-## 📁 Структура проекта
-
-```
-meter-reader/
-├── api.py                  # FastAPI приложение
-├── bot.py                  # Telegram-бот (aiogram)
-├── main.py                 # Основная логика распознавания
-├── models/                 # Веса YOLO (.pt)
-├── utils/
-│   ├── preprocessing.py    # Предобработка изображений
-│   └── postprocessing.py   # Сортировка и сборка чисел
-├── tests/
-│   └── locustfile.py       # Нагрузочные тесты
-├── requirements.txt
-├── Dockerfile
-└── README.md
-```
 
 ---
 
@@ -178,6 +159,6 @@ meter-reader/
 
 ## 📬 Контакты
 
-- **Автор:** [Твое Имя]
-- **GitHub:** [@твой-username](https://github.com/твой-username)
-- **Email:** [твой@email.com]
+- **Автор:** [Selkov Matvey]
+- **GitHub:** [Aketonchick](https://github.com/Aketonchick)
+- **Email:** [noteka0490@gmail.com]
